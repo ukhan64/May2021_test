@@ -120,6 +120,8 @@ public class Learningtestngpractice {
 		selectFromDropdown(countryField, countryName);
 		printme();
 		samplemethod();
+		method3();
+		method4();
 
 	}
 	
@@ -149,6 +151,14 @@ public class Learningtestngpractice {
 	public void samplemethod() {
 		System.out.println("Sample");
 	}
+	
+	public void method3() {
+		System.out.println("Method3");
+	}
+	
+	public void method4() {
+		System.out.println("Method4");
+	
 	
 	}
 
