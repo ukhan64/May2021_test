@@ -122,6 +122,8 @@ public class Learningtestngpractice {
 		samplemethod();
 		method3();
 		method4();
+		nmethod5();
+		nmethod6();
 
 	}
 	
@@ -158,9 +160,16 @@ public class Learningtestngpractice {
 	
 	public void method4() {
 		System.out.println("Method4");
+	}
 	
 	
+	public void nmethod5() {
+		System.out.println("Method5");
+	}
+	
+	public void nmethod6() {
+		System.out.println("Method6");
 	}
 
 
-
+}
