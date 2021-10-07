@@ -118,6 +118,8 @@ public class Learningtestngpractice {
 		driver.findElement(emailField).sendKeys(randomGenerator(9999) + email);
 
 		selectFromDropdown(countryField, countryName);
+		printme();
+		samplemethod();
 
 	}
 	
@@ -140,6 +142,15 @@ public class Learningtestngpractice {
 		driver.quit();
 	}
 
-}
+	public void printme() {
+		System.out.println("Name");
+	}
+	
+	public void samplemethod() {
+		System.out.println("Sample");
+	}
+	
+	}
+
 
 
